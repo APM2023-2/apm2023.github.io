@@ -1,168 +1,418 @@
-<!DOCTYPE html>
- <html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <!-- Meta Tags -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="Site keywords here">
+		<meta name="description" content="">
+		<meta name='copyright' content=''>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Title -->
+        <title>Celda de Manufactura Robotizada</title>
+		
+		<!-- Favicon -->
+        <link rel="icon" href="img/favicon.png">
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Nice Select CSS -->
+		<link rel="stylesheet" href="css/nice-select.css">
+		<!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- icofont CSS -->
+        <link rel="stylesheet" href="css/icofont.css">
+		<!-- Slicknav -->
+		<link rel="stylesheet" href="css/slicknav.min.css">
+		<!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="css/owl-carousel.css">
+		<!-- Datepicker CSS -->
+		<link rel="stylesheet" href="css/datepicker.css">
+		<!-- Animate CSS -->
+        <link rel="stylesheet" href="css/animate.min.css">
+		<!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+		
+		<!-- Medipro CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+		
+    </head>
+    <body>
+	
+		<!-- Preloader -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="loader-outter"></div>
+                <div class="loader-inner"></div>
 
-  <title>Celda de manufactura Robotizada</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center ">
-    <div class="container d-flex justify-content-between align-items-center">
-
-      <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>  <img src="assets/img/Logo.png" > Bicibu APM 2021-1</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li class="dropdown"><a class="active"  href="#"><span>Módulos</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="planeacion.html">Gestión de Proyecto</a></li>
-              <li><a href="planta.html">Gestión de Producción y Automatización</a></li>
-              <li><a href="indu4.0.html">Automatización e Industria 4.0</a></li>
-              <li><a href="celda.html">Celda de Manufactura Robotizada</a></li>
-              <li><a href="digitalf.html">Digital Factory</a></li>
-              <li><a href="controladores.html">Controladores Industriales (PLC)</a></li>
-              <li><a href="actuadores.html">Actuadores en Automatización</a></li>
-              <li><a href="scada.html">Sistema de Supervisión SCADA</a></li>
-              <li><a href="economica.html">Evaluación Económica del Proyecto</a></li>
-            </ul>
-          </li>
-          <li><a href="team.html">Integrantes</a></li>
-          <li><a href="Profesores.html">Asignatura</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <main id="main">
-
-    <!-- ======= Our Services Section =======-->
-    <section class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Celda de Manufactura Robotizadas</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Celda de Manufactura Robotizadas</li>
-          </ol>
+                <div class="indicator"> 
+                    <svg width="16px" height="12px">
+                        <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                        <polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                    </svg>
+                </div>
+            </div>
         </div>
 
-      </div>
-    </section>
+		<!-- Header Area -->
+		<header class="header" >
+			<!-- Topbar -->
+			<div class="topbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-5 col-12">
+							<!-- End Contact -->
+						</div>
+						<div class="col-lg-6 col-md-7 col-12">
+							<!-- Top Contact -->
+							<ul class="top-contact">
+								<li><i class="fa fa-phone"></i>+57 7242621</li>
+								<li><i class="fa fa-envelope"></i><a href="mailto:support@yourmail.com">starkautos@gmail.com</a></li>
+							</ul>
+							<!-- End Top Contact -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Topbar -->
+			<!-- Header Inner -->
+			<div class="header-inner">
+				<div class="container">
+					<div class="inner">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-12">
+								<!-- Start Logo -->
+								<div class="logo">
+									<a href="index.html"><img src="img/logo.png" alt="#"></a>
+								</div>
+								<!-- End Logo -->
+								<!-- Mobile Nav -->
+								<div class="mobile-nav"></div>
+								<!-- End Mobile Nav -->
+							</div>
+							<div class="col-lg-7 col-md-9 col-12">
+								<!-- Main Menu -->
+								<div class="main-menu">
+									<nav class="navigation">
+										<ul class="nav menu">
+													<li class="active"><a href="index.html">Inicio</i></a>
+													<li><a href="team.html">Equipo de Trabajo</a></li>
+													<li><a href="planeacion.html">Gestión de Proyecto </a></li>
+													<li><a href="#">Módulos del Proyecto <i class="icofont-rounded-down"></i></a>
+															<ul class="dropdown">
+																<li><a href="actuadores.html">Actuadores en Automatización</a></li>
+																<li><a href="indu4.0.html">Automatización e Industria 4.0</a></li>
+																<li><a href="planta.html">Gestión de Producción y Automatización</a></li>
+																<li><a href="celda.html">Celda de Manufactura Robotizada</a></li>
+																<li><a href="controladores.html">Controladores Industriales (PLC)</a></li>
+																<li><a href="digitalf.html">Digital Factory</a></li>
+																<li><a href="economica.html">Evaluación Económica del Proyecto</a></li>
+																<li><a href="scada.html">Sistema de Supervisión SCADA</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<!--/ End Main Menu -->
+							</div>
+							<div class="col-lg-2 col-12">
+								<div class="get-quote">
+									<a href="appointment.html" class="btn">Contactenos</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Header Inner -->
+		</header>
+		<!-- End Header Area -->
+		
+		<!-- Breadcrumbs -->
+		<div class="breadcrumbs overlay">
+			<div class="container">
+				<div class="bread-inner">
+					<div class="row">
+						<div class="col-12">
+							<h2>Celda de Manufactura Robotizada</h2>
+							<ul class="bread-list">
+								<li><a href="index.html">Inicio</a></li>
+								<li><i class="icofont-simple-right"></i></li>
+								<li class="active">Celda de Manufactura Robotizada</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Breadcrumbs -->
+		
+		<!-- Single News -->
+		<section class="news-single section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-12">
+						<div class="row">
+							<div class="col-12">
+								<div class="single-main">
+									<!-- News Head -->
+									<div class="news-head">
+										<img src="img/blog1.jpg" alt="#">
+									</div>
+									<!-- News Title -->
+									<h1 class="news-title"><a href="news-single.html">More than 80 clinical trials launch to test of the coronavirus .</a></h1>
+									<!-- Meta -->
+									<div class="meta">
+										<div class="meta-left">
+											<span class="author"><a href="#"><img src="img/author1.jpg" alt="#">Naimur Rahman</a></span>
+											<span class="date"><i class="fa fa-clock-o"></i>03 Feb 2019</span>
+										</div>
+										<div class="meta-right">
+											<span class="comments"><a href="#"><i class="fa fa-comments"></i>05 Comments</a></span>
+											<span class="views"><i class="fa fa-eye"></i>33K Views</span>
+										</div>
+									</div>
+									<!-- News Text -->
+									<div class="news-text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam.</p>
+										<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam. Nam ac risus vitae sem vehicula egestas. Sed velit nulla, viverra non commod</p>
+										<div class="image-gallery">
+											<div class="row">
+												<div class="col-lg-6 col-md-6 col-12">
+													<div class="single-image">
+														<img src="img/blog2.jpg" alt="#">
+													</div>
+												</div>
+												<div class="col-lg-6 col-md-6 col-12">
+													<div class="single-image">
+														<img src="img/blog3.jpg" alt="#">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam.</p>
+										<blockquote class="overlay">
+											<p>Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam. Nam ac risus vitae sem vehicula egestas. Sed velit nulla, viverra non commodo et, sodales</p>					
+										</blockquote>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam. Nam ac risus vitae sem vehicula egestas. Sed velit nulla, viverra non commodo et, sodales id dui.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse</p>
+									</div>
+									<div class="blog-bottom">
+										<!-- Social Share -->
+										<ul class="social-share">
+											<li class="facebook"><a href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+											<li class="twitter"><a href="#"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
+											<li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+											<li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											<li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+										</ul>
+										<!-- Next Prev -->
+										<ul class="prev-next">
+											<li class="prev"><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+											<li class="next"><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+										</ul>
+										<!--/ End Next Prev -->
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								
+							</div>
+							<div class="col-12">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<div class="main-sidebar">
+							<!-- Single Widget -->
+							
+							<!--/ End Single Widget -->
 
-    <section class="pricing section-bg" data-aos="fade-up">
-      <div class="container">
-        <div class="section-title">
-          <h2>Diseño de celdas robotizadas</h2>
-          <p>En el siguiente diagrama se expone la hoja de ruta para el diseño de una
-            celda robotizada que pueda ser utilizada en una planta de producción.</p>
-          <br/>
-          <div style="width: 100%;"><div style="position: relative; padding-bottom: 250.00%; padding-top: 0; height: 0;"><iframe frameborder="0" width="800" height="2000" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/608f4fcfb84a0a0d4f50cdec" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
-        </div>
+							<!-- Single Widget -->
+							<div class="single-widget recent-post">
+								<h3 class="title">Recent post</h3>
+								<!-- Single Post -->
+								<div class="single-post">
+									<div class="image">
+										<img src="img/blog-sidebar1.jpg" alt="#">
+									</div>
+									<div class="content">
+										<h5><a href="#">We have annnocuced our new product.</a></h5>
+										<ul class="comment">
+											<li><i class="fa fa-calendar" aria-hidden="true"></i>Jan 11, 2020</li>
+											<li><i class="fa fa-commenting-o" aria-hidden="true"></i>35</li>
+										</ul>
+									</div>
+								</div>
+								<!-- End Single Post -->
+								<!-- Single Post -->
+								<div class="single-post">
+									<div class="image">
+										<img src="img/blog-sidebar2.jpg" alt="#">
+									</div>
+									<div class="content">
+										<h5><a href="#">Top five way for solving teeth problems.</a></h5>
+										<ul class="comment">
+											<li><i class="fa fa-calendar" aria-hidden="true"></i>Mar 05, 2019</li>
+											<li><i class="fa fa-commenting-o" aria-hidden="true"></i>59</li>
+										</ul>
+									</div>
+								</div>
+								<!-- End Single Post -->
+								<!-- Single Post -->
+								<div class="single-post">
+									<div class="image">
+										<img src="img/blog-sidebar3.jpg" alt="#">
+									</div>
+									<div class="content">
+										<h5><a href="#">We provide highly business soliutions.</a></h5>
+										<ul class="comment">
+											<li><i class="fa fa-calendar" aria-hidden="true"></i>June 09, 2019</li>
+											<li><i class="fa fa-commenting-o" aria-hidden="true"></i>44</li>
+										</ul>
+									</div>
+								</div>
+								<!-- End Single Post -->
+							</div>
+							<!--/ End Single Widget -->
+							<!-- Single Widget -->
+							<!--/ End Single Widget -->
+							<!-- Single Widget -->
+							<div class="single-widget side-tags">
+								<h3 class="title">Tags</h3>
+								<ul class="tag">
+									<li><a href="#">business</a></li>
+									<li><a href="#">wordpress</a></li>
+									<li><a href="#">html</a></li>
+									<li><a href="#">multipurpose</a></li>
+									<li><a href="#">education</a></li>
+									<li><a href="#">template</a></li>
+									<li><a href="#">Ecommerce</a></li>
+								</ul>
+							</div>
+							<!--/ End Single Widget -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End Single News -->
+		
+		<!-- Footer Area -->
+		<footer id="footer" class="footer ">
+			<!-- Footer Top -->
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								<h2>Sobre Nosotros</h2>
+								<p>Automatizando el futuro, paso a paso.</p>
+								<!-- Social -->
+								<ul class="social">
+									<li><a href="#"><i class="icofont-facebook"></i></a></li>
+									<li><a href="#"><i class="icofont-google-plus"></i></a></li>
+									<li><a href="#"><i class="icofont-twitter"></i></a></li>
+									<li><a href="#"><i class="icofont-vimeo"></i></a></li>
+									<li><a href="#"><i class="icofont-pinterest"></i></a></li>
+								</ul>
+								<!-- End Social -->
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer f-link">
+								<h2>Enlaces</h2>
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-12">
+										<ul>
+											<li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Inicio</a></li>
+											<li><a href="team.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Equipo de Trabajo</a></li>
+											<li><a href="planta.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Gestión de Proyecto</a></li>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								<h2>Repositorio</h2>
+								<img src="img/github.png" alt="#">
+								<a href="https://github.com/APM2023-2/APM_Proyect.git" class="btn">Click here</a>
 
-      </div>
-    </section>
-
-    <section class="service-details">
-      <div class="container">
-
-        <div class="row">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title"><a href="https://drive.google.com/drive/folders/1n1nn4cNDw_x2YA5tcGawngmm6LThYZ6Z?usp=sharing">Entregables</a></h5>
-                <p class="card-text">Dando clic en entregables podrá encontrar los documentos correspondientes al Taller 1 del módulo Celdas de Manufactura Robotizadas.</p>
-              </div>
-            </div>
-          </div>
-          <br> 
-          <div class="row">
-            <div class="card">
-              <div class="card-body" style="text-align:center;">
-                <h5 class="card-title">Video Simulación</a></h5>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q3wsPY5umaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-          <br> 
-          <div class="row">
-            <div class="card">
-              <div class="card-body" style="text-align:center;">
-                <h5 class="card-title">Análisis de riesgos</a></h5>
-                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRm7G0XDaL8-tKB5k-kRkWiDUuHxAW4K5Xuog1RJ3ysjESq7gRV0L9x60w_WS8Ntw/pubhtml?widget=true&amp;headers=false"width="1000" height="680"></iframe>
-              </div>
-            </div>
-          </div>
-
-         
-    </section>
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-
-    <div class="container">
-      <div class="credits">
-        Repositorio de Trabajo en Github (Enlace)
-        <a href="https://github.com/APM2021-1" class="github"><i class="bx bxl-github"></i></a> &nbsp  &nbsp    &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp&nbsp  &nbsp    &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
-        <img src="assets/img/Escudo1.png">  
-        <img src="assets/img/Escudo2.png"> 
-      </div>
-    </div>
-  </footer>
-  
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								
+								<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
+									<img src="img/unal.png" alt="#">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Footer Top -->
+			<!-- Copyright -->
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-12">
+							<div class="copyright-content">
+								<p>© Copyright 2023 </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Copyright -->
+		</footer>
+		<!--/ End Footer Area -->
+		
+		<!-- jquery Min JS -->
+        <script src="js/jquery.min.js"></script>
+		<!-- jquery Migrate JS -->
+		<script src="js/jquery-migrate-3.0.0.js"></script>
+		<!-- jquery Ui JS -->
+		<script src="js/jquery-ui.min.js"></script>
+		<!-- Easing JS -->
+        <script src="js/easing.js"></script>
+		<!-- Color JS -->
+		<script src="js/colors.js"></script>
+		<!-- Popper JS -->
+		<script src="js/popper.min.js"></script>
+		<!-- Bootstrap Datepicker JS -->
+		<script src="js/bootstrap-datepicker.js"></script>
+		<!-- Jquery Nav JS -->
+        <script src="js/jquery.nav.js"></script>
+		<!-- Slicknav JS -->
+		<script src="js/slicknav.min.js"></script>
+		<!-- ScrollUp JS -->
+        <script src="js/jquery.scrollUp.min.js"></script>
+		<!-- Niceselect JS -->
+		<script src="js/niceselect.js"></script>
+		<!-- Tilt Jquery JS -->
+		<script src="js/tilt.jquery.min.js"></script>
+		<!-- Owl Carousel JS -->
+        <script src="js/owl-carousel.js"></script>
+		<!-- counterup JS -->
+		<script src="js/jquery.counterup.min.js"></script>
+		<!-- Steller JS -->
+		<script src="js/steller.js"></script>
+		<!-- Wow JS -->
+		<script src="js/wow.min.js"></script>
+		<!-- Magnific Popup JS -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<!-- Counter Up CDN JS -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Main JS -->
+		<script src="js/main.js"></script>
+    </body>
 </html>

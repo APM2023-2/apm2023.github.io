@@ -1,386 +1,418 @@
-<!DOCTYPE html>
- <html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <!-- Meta Tags -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="Site keywords here">
+		<meta name="description" content="">
+		<meta name='copyright' content=''>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Title -->
+        <title>Gestión de Producción y Automatización</title>
+		
+		<!-- Favicon -->
+        <link rel="icon" href="img/favicon.png">
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Nice Select CSS -->
+		<link rel="stylesheet" href="css/nice-select.css">
+		<!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- icofont CSS -->
+        <link rel="stylesheet" href="css/icofont.css">
+		<!-- Slicknav -->
+		<link rel="stylesheet" href="css/slicknav.min.css">
+		<!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="css/owl-carousel.css">
+		<!-- Datepicker CSS -->
+		<link rel="stylesheet" href="css/datepicker.css">
+		<!-- Animate CSS -->
+        <link rel="stylesheet" href="css/animate.min.css">
+		<!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+		
+		<!-- Medipro CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+		
+    </head>
+    <body>
+	
+		<!-- Preloader -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="loader-outter"></div>
+                <div class="loader-inner"></div>
 
-  <title>Gestión de Producción y Automatización</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center ">
-    <div class="container d-flex justify-content-between align-items-center">
-      <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>  <img src="assets/img/Logo.png" > Bicibu APM 2021-1</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li class="dropdown"><a class="active"  href="#"><span>Módulos</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="planeacion.html">Gestión de Proyecto</a></li>
-              <li><a href="planta.html">Gestión de Producción y Automatización</a></li>
-              <li><a href="indu4.0.html">Automatización e Industria 4.0</a></li>
-              <li><a href="celda.html">Celda de Manufactura Robotizada</a></li>
-              <li><a href="digitalf.html">Digital Factory</a></li>
-              <li><a href="controladores.html">Controladores Industriales (PLC)</a></li>
-              <li><a href="actuadores.html">Actuadores en Automatización</a></li>
-              <li><a href="scada.html">Sistema de Supervisión SCADA</a></li>
-              <li><a href="economica.html">Evaluación Económica del Proyecto</a></li>
-            </ul>
-          </li>
-          <li><a href="team.html">Integrantes</a></li>
-          <li><a href="Profesores.html">Asignatura</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <main id="main">
-
-    <!-- ======= Our Services Section ======= -->
-    <section class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Gestión de Producción y Automatización</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Gestión de Producción y Automatización</li>
-          </ol>
+                <div class="indicator"> 
+                    <svg width="16px" height="12px">
+                        <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                        <polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                    </svg>
+                </div>
+            </div>
         </div>
 
-      </div>
-    </section>
-    <!-- ======= Service Details Section ======= -->
-    <section class="service-details">
-      <div class="container">
+		<!-- Header Area -->
+		<header class="header" >
+			<!-- Topbar -->
+			<div class="topbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-5 col-12">
+							<!-- End Contact -->
+						</div>
+						<div class="col-lg-6 col-md-7 col-12">
+							<!-- Top Contact -->
+							<ul class="top-contact">
+								<li><i class="fa fa-phone"></i>+57 7242621</li>
+								<li><i class="fa fa-envelope"></i><a href="mailto:support@yourmail.com">starkautos@gmail.com</a></li>
+							</ul>
+							<!-- End Top Contact -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Topbar -->
+			<!-- Header Inner -->
+			<div class="header-inner">
+				<div class="container">
+					<div class="inner">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-12">
+								<!-- Start Logo -->
+								<div class="logo">
+									<a href="index.html"><img src="img/logo.png" alt="#"></a>
+								</div>
+								<!-- End Logo -->
+								<!-- Mobile Nav -->
+								<div class="mobile-nav"></div>
+								<!-- End Mobile Nav -->
+							</div>
+							<div class="col-lg-7 col-md-9 col-12">
+								<!-- Main Menu -->
+								<div class="main-menu">
+									<nav class="navigation">
+										<ul class="nav menu">
+													<li class="active"><a href="index.html">Inicio</i></a>
+													<li><a href="team.html">Equipo de Trabajo</a></li>
+													<li><a href="planeacion.html">Gestión de Proyecto </a></li>
+													<li><a href="#">Módulos del Proyecto <i class="icofont-rounded-down"></i></a>
+															<ul class="dropdown">
+																<li><a href="actuadores.html">Actuadores en Automatización</a></li>
+																<li><a href="indu4.0.html">Automatización e Industria 4.0</a></li>
+																<li><a href="planta.html">Gestión de Producción y Automatización</a></li>
+																<li><a href="celda.html">Celda de Manufactura Robotizada</a></li>
+																<li><a href="controladores.html">Controladores Industriales (PLC)</a></li>
+																<li><a href="digitalf.html">Digital Factory</a></li>
+																<li><a href="economica.html">Evaluación Económica del Proyecto</a></li>
+																<li><a href="scada.html">Sistema de Supervisión SCADA</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<!--/ End Main Menu -->
+							</div>
+							<div class="col-lg-2 col-12">
+								<div class="get-quote">
+									<a href="appointment.html" class="btn">Contactenos</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Header Inner -->
+		</header>
+		<!-- End Header Area -->
+		
+		<!-- Breadcrumbs -->
+		<div class="breadcrumbs overlay">
+			<div class="container">
+				<div class="bread-inner">
+					<div class="row">
+						<div class="col-12">
+							<h2>Gestión de Producción y Automatización</h2>
+							<ul class="bread-list">
+								<li><a href="index.html">Inicio</a></li>
+								<li><i class="icofont-simple-right"></i></li>
+								<li class="active">Gestión de Producción y Automatización</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Breadcrumbs -->
+		
+		<!-- Single News -->
+		<section class="news-single section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-12">
+						<div class="row">
+							<div class="col-12">
+								<div class="single-main">
+									<!-- News Head -->
+									<div class="news-head">
+										<img src="img/blog1.jpg" alt="#">
+									</div>
+									<!-- News Title -->
+									<h1 class="news-title"><a href="news-single.html">More than 80 clinical trials launch to test of the coronavirus .</a></h1>
+									<!-- Meta -->
+									<div class="meta">
+										<div class="meta-left">
+											<span class="author"><a href="#"><img src="img/author1.jpg" alt="#">Naimur Rahman</a></span>
+											<span class="date"><i class="fa fa-clock-o"></i>03 Feb 2019</span>
+										</div>
+										<div class="meta-right">
+											<span class="comments"><a href="#"><i class="fa fa-comments"></i>05 Comments</a></span>
+											<span class="views"><i class="fa fa-eye"></i>33K Views</span>
+										</div>
+									</div>
+									<!-- News Text -->
+									<div class="news-text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam.</p>
+										<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam. Nam ac risus vitae sem vehicula egestas. Sed velit nulla, viverra non commod</p>
+										<div class="image-gallery">
+											<div class="row">
+												<div class="col-lg-6 col-md-6 col-12">
+													<div class="single-image">
+														<img src="img/blog2.jpg" alt="#">
+													</div>
+												</div>
+												<div class="col-lg-6 col-md-6 col-12">
+													<div class="single-image">
+														<img src="img/blog3.jpg" alt="#">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam.</p>
+										<blockquote class="overlay">
+											<p>Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam. Nam ac risus vitae sem vehicula egestas. Sed velit nulla, viverra non commodo et, sodales</p>					
+										</blockquote>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam. Nam ac risus vitae sem vehicula egestas. Sed velit nulla, viverra non commodo et, sodales id dui.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse</p>
+									</div>
+									<div class="blog-bottom">
+										<!-- Social Share -->
+										<ul class="social-share">
+											<li class="facebook"><a href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+											<li class="twitter"><a href="#"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
+											<li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+											<li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											<li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+										</ul>
+										<!-- Next Prev -->
+										<ul class="prev-next">
+											<li class="prev"><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+											<li class="next"><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+										</ul>
+										<!--/ End Next Prev -->
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								
+							</div>
+							<div class="col-12">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<div class="main-sidebar">
+							<!-- Single Widget -->
+							
+							<!--/ End Single Widget -->
 
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/PlantSimu/insurgentes-1-compressor.jpg" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="#">Urbana Contrapedal</a></h5>
-                <p class="card-text">Este modelo permite practicar disciplinas deportivas como el polo en bicicleta y
-                  además andar por terrenos urbanos no muy agrestes debido a su bajo peso, su tecnología de transmisión
-                  contrapedal y la ausencia de frenos, lo cual la hace bastante atractiva para personas que deseen
-                  incursionar en este tipo de disciplina.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/PlantSimu/durangoPaula-y-Jon-8.jpg" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="#">Urbana Híbrida</a></h5>
-                <p class="card-text">Esta es una bicicleta capaz de andar por diferentes terrenos urbanos con facilidad
-                  debido a su sistema de cambios, su sistema de frenos y su resistencia adicional en la parte inferior
-                  del marco, lo cual la hace muy atractiva para los usuarios recurrentes de bicicleta en las ciudades.
-                </p>
-              </div>
-            </div>
+							<!-- Single Widget -->
+							<div class="single-widget recent-post">
+								<h3 class="title">Recent post</h3>
+								<!-- Single Post -->
+								<div class="single-post">
+									<div class="image">
+										<img src="img/blog-sidebar1.jpg" alt="#">
+									</div>
+									<div class="content">
+										<h5><a href="#">We have annnocuced our new product.</a></h5>
+										<ul class="comment">
+											<li><i class="fa fa-calendar" aria-hidden="true"></i>Jan 11, 2020</li>
+											<li><i class="fa fa-commenting-o" aria-hidden="true"></i>35</li>
+										</ul>
+									</div>
+								</div>
+								<!-- End Single Post -->
+								<!-- Single Post -->
+								<div class="single-post">
+									<div class="image">
+										<img src="img/blog-sidebar2.jpg" alt="#">
+									</div>
+									<div class="content">
+										<h5><a href="#">Top five way for solving teeth problems.</a></h5>
+										<ul class="comment">
+											<li><i class="fa fa-calendar" aria-hidden="true"></i>Mar 05, 2019</li>
+											<li><i class="fa fa-commenting-o" aria-hidden="true"></i>59</li>
+										</ul>
+									</div>
+								</div>
+								<!-- End Single Post -->
+								<!-- Single Post -->
+								<div class="single-post">
+									<div class="image">
+										<img src="img/blog-sidebar3.jpg" alt="#">
+									</div>
+									<div class="content">
+										<h5><a href="#">We provide highly business soliutions.</a></h5>
+										<ul class="comment">
+											<li><i class="fa fa-calendar" aria-hidden="true"></i>June 09, 2019</li>
+											<li><i class="fa fa-commenting-o" aria-hidden="true"></i>44</li>
+										</ul>
+									</div>
+								</div>
+								<!-- End Single Post -->
+							</div>
+							<!--/ End Single Widget -->
+							<!-- Single Widget -->
+							<!--/ End Single Widget -->
+							<!-- Single Widget -->
+							<div class="single-widget side-tags">
+								<h3 class="title">Tags</h3>
+								<ul class="tag">
+									<li><a href="#">business</a></li>
+									<li><a href="#">wordpress</a></li>
+									<li><a href="#">html</a></li>
+									<li><a href="#">multipurpose</a></li>
+									<li><a href="#">education</a></li>
+									<li><a href="#">template</a></li>
+									<li><a href="#">Ecommerce</a></li>
+								</ul>
+							</div>
+							<!--/ End Single Widget -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End Single News -->
+		
+		<!-- Footer Area -->
+		<footer id="footer" class="footer ">
+			<!-- Footer Top -->
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								<h2>Sobre Nosotros</h2>
+								<p>Automatizando el futuro, paso a paso.</p>
+								<!-- Social -->
+								<ul class="social">
+									<li><a href="#"><i class="icofont-facebook"></i></a></li>
+									<li><a href="#"><i class="icofont-google-plus"></i></a></li>
+									<li><a href="#"><i class="icofont-twitter"></i></a></li>
+									<li><a href="#"><i class="icofont-vimeo"></i></a></li>
+									<li><a href="#"><i class="icofont-pinterest"></i></a></li>
+								</ul>
+								<!-- End Social -->
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer f-link">
+								<h2>Enlaces</h2>
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-12">
+										<ul>
+											<li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Inicio</a></li>
+											<li><a href="team.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Equipo de Trabajo</a></li>
+											<li><a href="planta.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Gestión de Proyecto</a></li>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								<h2>Repositorio</h2>
+								<img src="img/github.png" alt="#">
+								<a href="https://github.com/APM2023-2/APM_Proyect.git" class="btn">Click here</a>
 
-          </div>
-        </div>
-    </section>
-    <!-- ======= Why Us Section ======= -->
-    <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6 video-box">
-            <img src="assets/img/PlantSimu/Parts.PNG" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
-
-            <div class="icon-box">
-
-              <h4 class="title">Piezas a fabricar.</h4>
-              <ul class="c3">
-                <li>Tubo superior.</li>
-                <li>Tubo inferior.</li>
-                <li>Tubo asiento.</li>
-                <li>Vainas.</li>
-                <li>Punteras.</li>
-                <li>Telescopio.</li>
-                <li>Manga asiento.</li>
-                <li>Pedalier.</li>
-                <li>Punteras traseras.</li>
-              </ul>
-              <h4 class="title">Piezas adquiridas.</h4>
-              <ul class="c3">
-                <li>Cadena.</li>
-                <li>Estrella.</li>
-                <li>Tijera.</li>
-                <li>Pedal.</li>
-                <li>Biela.</li>
-                <li>Cambios.</li>
-                <li>Eje pedalier.</li>
-                <li>Neumático.</li>
-                <li>Coraza.</li>
-                <li>Manzana.</li>
-                <li>Rayos.</li>
-                <li>Buje.</li>
-                <li>Freno.</li>
-                <li>Piñones.</li>
-                <li>Espaciadores.</li>
-                <li>Potencia.</li>
-                <li>Mangos.</li>
-                <li>Tapón.</li>
-                <li>Sillín.</li>
-                <li>Tija.</li>
-                <li>Control de cambios.</li>
-                <li>Control de frenos.</li>
-                <li>Manubrio.</li>
-
-              </ul>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <div class="container">
-
-      <div class="section-title" data-aos="fade-up">
-        <h1>Tecnomatix Plant Simulation</h1>
-        <hr>
-        <h2>Plantas de Producción</h2>
-        <p>En el proceso de fabricación de bicicletas de bambú la elaboración del marco es el proceso que se diferencia respecto a la fabricación de bicicletas convencionales. En particular, para este tipo de proceso identificamos dos técnicas diferentes. Por lo tanto se simularon diferentes procesos de fabricación en los cuales las diferencias más grandes se evidencian en los métodos de elaboración del marco. Dichas simulaciones se hicieron a partir de los siguientes diseños de plantas:</p>
- <br>
-<p> En los dos primeros casos se muestra el diseño de una planta para fabricación de bicicleta híbrida y de contrapedal con fabricación manual de marco. Como se mencionó anteriormente, la principal diferencia entre una bicicleta urbana híbrida y de contrapedal es la presencia o ausencia respectivamente de un sistema de frenos y de cambios. Asimismo, se mencionó que para la fabricación manual del marco se implementan resinas y fibras, las cuales se encargan de unir los palos de bambú correspondientes.  
-</p>
-         
-        <div class="container" data-aos="fade-up">
-          <div class="row">
-            <div class="col-lg-6 video-box">
-              <iframe src="https://drive.google.com/file/d/1R343qPW4L9ae5v-1ddD60ebfD2-Ygo1p/preview"
-                width="100%" height="300"></iframe>
-              <p>Planta Bicicleta Hibrida.</p>
-            </div>
-            <div class="col-lg-6 video-box">
-              <iframe src="https://drive.google.com/file/d/1RHIskOMLOwDLD9zGI-eFzLMC2SKCQAo9/preview"
-                width="100%" height="300"></iframe>
-              <p>Planta Bicicleta Contrapedal.</p> <br><br>
-            </div>
-            <p> En los dos siguientes casos se muestran los diseños para fábricas de bicicletas urbanas híbridas y de contrapedal cuyos marcos son armados mediante elementos metálicos de unión llamados en inglés Lugs,, los cuales son secciones de tubo cortadas y soldadas para unir los tubos de bambú del marco de la bicicleta, dichos tubos de bambú son ensamblados a los Lugs utilizando pegamentos industriales.
-            </p>
-            <div class="col-lg-6 video-box">
-              <iframe src="https://drive.google.com/file/d/1RFPSAC-AZVWvLIcjRUyMVnX4ZfZfDeM2/preview"
-                width="100%" height="300"></iframe>
-              <p>Planta Bicicleta Hibrida Lugs.</p>
-            </div>
-            <div class="col-lg-6 video-box">
-              <iframe src="https://drive.google.com/file/d/1ROrbBUTENq4u2X4BSTEP6vneNGWgksex/preview"
-                width="100%" height="300"></iframe>
-              <p>Planta Bicicleta Contrapedal Lugs.</p><br><br>
-            </div>
-          <p>En los dos últimos casos se muestras los diseños para fábricas de bicicletas urbanas híbridas y de contrapedal cuyos marcos son armados mediante lugs, pero esta vez se tiene un diseño más fiel a un caso real en el que no se cuenta con multiples estaciones de procesos, sino que una misma estación se encarga de mecanizar diferentes piezas (como es el caso de las estaciones de lijado, corte o boca de pescado, en donde se pasó a tener una sola estación que procesa tubos de diferentes diámetros y longitudes)..</p>
-          </p>
-            <div class="col-lg-6 video-box">
-              <iframe src="https://drive.google.com/file/d/1RH19-sSioDPpgQ_pYNFl83wGjplDF6t6/preview"
-                width="100%" height="300"></iframe>
-              <p>Planta Bicicleta Hibrida Lugs Unificada.</p>
-            </div>
-            <div class="col-lg-6 video-box">
-              <iframe src="https://drive.google.com/file/d/1RRnLrdCjs6kVGIZliZCE90v3I_Bvxwb5/preview"
-                width="100%" height="300"></iframe>
-              <p>Planta Bicicleta Contrapedal Lugs Unificada.</p>
-            </div>
-          </div>
-        </div>
-
-        <hr>
-        <h2>Comparación de Producción</h2>
-        <p>En la Tabla que se expone a continuación se puede ver una comparación en la producción de un mes de las diferentes plantas simuladas explicadas anteriormente. Es importante resaltar que el campo "Throughput per Day" hace referencia a un tiempo de 24 horas.</p>
-        <img src="assets/img/PlantSimu/Tabla.PNG" class="img-fluid" alt="">
-        <p>En este caso particular podemos ver como la implementación de Lugs mejora en 3,5 veces
-        la producción de bicicletas, pero a la vez la disminución de las estaciones de trabajo
-        limita el correcto desempeño de la planta con el método más óptimo de fabricación del marco.</p>
-
-
-        <hr>
-
-        <h2>Flujo de Material</h2>
-        <p>A continuación, se muestran las estadísticas de las estaciones en las cuales se tiene un porcentaje de tiempo
-          de trabajo mayor en las plantas que utilizan el método de Lugs implementando una estación para más de un proceso
-          por lo cual se pueden estar produciendo cuellos de botella en el proceso de producción.</p>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="icon-box icon-box-green">
-              <img src="assets/img/PlantSimu/chart1.PNG" class="img-fluid" alt="">
-              <h4 class="title">Estaciones de pulido</h4>
-              <p class="description">En estas estaciones se retira el material sobrante de los procesos de pulido y corte
-                de los tubos de aluminio.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon-box icon-box-green">
-              <img src="assets/img/PlantSimu/chart2.PNG" class="img-fluid" alt="">
-              <h4 class="title">Tratamiento superficial</h4>
-              <p class="description">En estas estaciones sucesivas se realiza el acabado superficial de los Lugs de aluminio
-                que se utilizarán posteriormente en la unión de los tubos de bambú. </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-green">
-              <img src="assets/img/PlantSimu/chart3.PNG" class="img-fluid" alt="">
-              <h4 class="title">Bocas de pescado</h4>
-              <p class="description">En esta única estacion de bocas de pescado se le realiza este proceso a todos los
-                tubos de aluminio utilizados para realizar los Lugs.
-              </p>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <h2>VSM</h2>
-
-        <p>El diagrama VSM es  permite visualizar todo el proceso, en donde se observa tanto el flujo de información como de materiales necesarios para que un producto, en este caso, tanto la Bicicleta Urbana como la Bicicleta Hibrida, desde los proveedores hasta la  llegada al cliente, adicionalmente permite observar las actividades que no agregan valor al proceso para posteriormente iniciar las actividades necesarias para eliminarlas.</p>
-        <div class="row">
-        <div class="col-lg-6 video-box">
-          <iframe src="https://drive.google.com/file/d/1ZG1sUa5ajdDpbLxFMmN_A2cPZQhhhpRN/preview"width="100%" height="230"></iframe>
-        </div>
-        <div class="col-lg-6 video-box">
-          <iframe src="https://drive.google.com/file/d/1Zbfyy_qKClTHTztZXt7sROnu04yu1HJ8/preview"width="100%" height="230"></iframe>
-        </div>
-
-        </div>
-        
-        
-        <p>A continuación, se presentan los tiempos de producción de 3 bicicletas por día, tanto para la referencia de Bicicleta Híbrida como Contrapedal. Cabe destacar que se realizó una prueba a la planta durante 30 días para evaluar si estos tiempos se mantenían de forma apropiada. Adicionalmente, los tiempos correspondientes a la producción de una bicicleta de cada referencia, donde se evidencia qué fracción del tiempo permite adicionar valor, qué fracción se emplea en transporte y en tiempos de espera.</p>
-
-        <br/>
-        <div class="row justify-content-md-center">
-          <div class="col-lg-5 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="icon-box icon-box-green">
-              <img src="assets/img/PlantSimu/Hibrida_time.PNG" class="img-fluid" alt="">
-              <h4 class="title">Tiempo de producción 3 bicicletas diarias Referencia Híbrida</h4>
-            </div>
-          </div>
-
-          <div class="col-lg-5 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-green">
-              <img src="assets/img/PlantSimu/Urbana_time.PNG" class="img-fluid" alt="">
-              <h4 class="title">Tiempo de producción 3 bicicletas diarias Referencia Contrapedal</h4>
-            </div>
-          </div>
-
-          <div class="col-lg-5 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon-box icon-box-green">
-              <img src="assets/img/PlantSimu/Hibrida_graph.PNG" class="img-fluid" alt="">
-              <h4 class="title">Tiempo referentes a produccion 1 bicicleta Referencia Híbrida</h4>
-            </div>
-          </div>
-          
-          <div class="col-lg-5 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-green">
-              <img src="assets/img/PlantSimu/Urbana_graph.PNG" class="img-fluid" alt="">
-              <h4 class="title">Tiempo referentes a produccion 1 bicicleta Referencia Contrapedal</h4>
-            </div>
-          </div>
-        </div>
-        <hr>
-      </div>
-    </section>
- 
-    <div  data-aos="fade-up" data-aos-delay="200">
-      <div class="section-title" data-aos="fade-up">
-        <h1>Planta Automatizada</h1>
-      </div>
-        <p>A raíz del estudio previo se procede a hacer las modificaciones correspondientes en las plantas de fabricación de bicicletas urbanas híbridas y de contrapedal respectivamente.</p>
-        <p>Para el caso de la planta automatizada para bicicleta urbana híbrida se reemplazaron las numerosas estaciones de corte y boca de pescado en una sola. Los dos bloques encerrados en el recuadro representan la maquina automatizada de corte y boca de pescado diseñada.</p>
-        <div align="center"><img src="assets/img/PlantSimu/auto1.png" ></div>
-        <p>Esta máquina cuenta con un tiempo de proceso de 15 segundos, y al estar en el mismo montaje va a tener un solo tiempo de setup para ambos subprocesos.</p>
-        <p>La celda robotizada es representada con un único bloque como se muestra en la siguiente imagen. Este bloque recibe como entrada los diferentes segmentos de tubo de aluminio con los que se armarán los lugs. Durante el proceso de soldado el cual dura solamente 54 segundos el operario puede hacer el montaje del siguiente juego de tubos, por lo cual se elimina el tiempo de setup ya que ocurre durante el tiempo de proceso. Sin embargo, se cuenta con un tiempo de 20 segundos en el que el operario deberá hacer el desmontaje de los lugs ya soldados y ubicarlos en la banda transportadora que los llevará al respectivo almacén. </p>
-        <div align="center"><img src="assets/img/PlantSimu/auto2.png"></div>
-        <p>Finalmente, la estación de corte de bambú se reemplaza por una estación automatizada en la que se reduce el tiempo de proceso y tiempo de setup, mejorando el flujo de material a lo largo del proceso de fabricación.</p>
-        <div align="center"><img src="assets/img/PlantSimu/auto3.png" width: 50% GO ></div>
-        <p>En la siguiente tabla se muestra una comparación con los anteriores indicadores de producción en la que se evidencia una reducción en el tiempo de fabricación de las bicicletas tanto para la producción de bicicletas híbridas como para las de contrapedal, haciendo que se incremente la capacidad de producción en un 66%. Donde antes se producían 101 bicicletas híbridas y 130 bicicletas de contrapedal, ahora gracias a la implementación de la automatización de los procesos de manufactura mencionados anteriormente, se aumenta la capacidad de producción a 168 y 216 bicicletas respectivamente. </p>
-        <div align="center"><img src="assets/img/PlantSimu/auto4.png"></div>
-        <hr>
-        <div class="section-title" data-aos="fade-up">
-          <h1>MES</h1>
-        </div>
-        
-        <p>Se eligió Odoo como herramienta computacional para la implementación del sistema MES principalmente por su flexibilidad. En lugar de adquirir un paquete completo, Odoo nos permite elegir los módulos que vamos a implementar para mejorar nuestro sistema de gestión y por aparte cobra licencias por su uso, de acuerdo al número de trabajadores e independientemente de su rango en la empresa. Esta modalidad de servicio trae como beneficios una reducción de costos y evitar la adquisición de herramientas que no se utilizarán.</p>
-        <img src="assets/img/PlantSimu/herramienta.jpeg" class="img-fluid" alt="">
-      </div>
-  
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-
-    <div class="container">
-      <div class="credits">
-        Repositorio de Trabajo en Github (Enlace)
-        <a href="https://github.com/APM2021-1" class="github"><i class="bx bxl-github"></i></a> &nbsp  &nbsp    &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp&nbsp  &nbsp    &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
-        <img src="assets/img/Escudo1.png">  
-        <img src="assets/img/Escudo2.png"> 
-      </div>
-    </div>
-  </footer>
-  
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								
+								<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
+									<img src="img/unal.png" alt="#">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Footer Top -->
+			<!-- Copyright -->
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-12">
+							<div class="copyright-content">
+								<p>© Copyright 2023 </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Copyright -->
+		</footer>
+		<!--/ End Footer Area -->
+		
+		<!-- jquery Min JS -->
+        <script src="js/jquery.min.js"></script>
+		<!-- jquery Migrate JS -->
+		<script src="js/jquery-migrate-3.0.0.js"></script>
+		<!-- jquery Ui JS -->
+		<script src="js/jquery-ui.min.js"></script>
+		<!-- Easing JS -->
+        <script src="js/easing.js"></script>
+		<!-- Color JS -->
+		<script src="js/colors.js"></script>
+		<!-- Popper JS -->
+		<script src="js/popper.min.js"></script>
+		<!-- Bootstrap Datepicker JS -->
+		<script src="js/bootstrap-datepicker.js"></script>
+		<!-- Jquery Nav JS -->
+        <script src="js/jquery.nav.js"></script>
+		<!-- Slicknav JS -->
+		<script src="js/slicknav.min.js"></script>
+		<!-- ScrollUp JS -->
+        <script src="js/jquery.scrollUp.min.js"></script>
+		<!-- Niceselect JS -->
+		<script src="js/niceselect.js"></script>
+		<!-- Tilt Jquery JS -->
+		<script src="js/tilt.jquery.min.js"></script>
+		<!-- Owl Carousel JS -->
+        <script src="js/owl-carousel.js"></script>
+		<!-- counterup JS -->
+		<script src="js/jquery.counterup.min.js"></script>
+		<!-- Steller JS -->
+		<script src="js/steller.js"></script>
+		<!-- Wow JS -->
+		<script src="js/wow.min.js"></script>
+		<!-- Magnific Popup JS -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<!-- Counter Up CDN JS -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Main JS -->
+		<script src="js/main.js"></script>
+    </body>
 </html>
