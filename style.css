@@ -964,12 +964,12 @@ body{
 	Why choose CSS
 =====================*/
 .why-choose .choose-left h3{
-	font-size:24px;
+	font-size:30px;
 	font-weight:600;
 	color:#2C2D3F;
 	position:relative;
-	padding-bottom:20px;
-	margin-bottom:24px;
+	padding-bottom:15px;
+	margin-bottom:20px;
 }
 .why-choose .choose-left h3:before{
 	position:absolute;
@@ -998,7 +998,7 @@ body{
 	text-align:center;
 	background:#1a76d1;
 	color:#fff;
-	font-size:14px;
+	font-size:13px;
 	border-radius:100%;
 	padding-left:2px;
 	margin-right:16px;
