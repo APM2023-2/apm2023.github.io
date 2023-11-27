@@ -244,81 +244,17 @@
 										<div class="single-image">
 											<img src="img/vsmescaleras.png" alt="#"style="max-width: 100%; height: auto;">
 										</div>
-										<div class="text-center">
-											<!-- News Title -->
-											<h1 class="news-title"><a href="news-single.html">Datos de producción</a></h1>
-											<!-- Meta -->
-									    </div>
-
-										<p class="text-justify">A partir de la información anterior, en la primera máquina de corte se puede implementar la secuencia de manera que cuente automáticamente para saber que tubo esta cortando y como lo corta, siendo de importancia 
-											la lógica en el robot.
-										</p>
-
-										<p class="text-justify"><strong>Programa Silla:</strong> Debe realizar 12 veces seguidas la lógica de doblar tubo y dejar en banda y 12 veces seguidas la lógica de llevar el tubo a la máquina de corte y luego dejar en banda.
-										</p>
-
-										<p class="text-justify"><strong>Programa escalera: </strong> Se debe realizar 36 veces seguidas la lógica de doblar tubo de 1m, 36 veces de cortar tubo de 49 cm y 36 veces de cortar tubo
-											de 34 cm.
-										</p>
-
-										<p class="text-justify"> Para acelerar el código anterior se realiza un código que realice primero un corte de cada tipo de tubo y luego cortar los tubos restantes. También existe la posibilidad de repartir el código en 5 secciones cada una para
-											 cada corte o doblado, de manera que el operario elija la operación cada vez que inserta un tubo.
-										</p>
-
-										<div class="image-gallery">
-											<div class="row">
-												<div class="col-lg-6 col-md-6 col-12">
-													<div class="single-image">
-														<img src="img/blog2.jpg" alt="#">
-													</div>
-												</div>
-												<div class="col-lg-6 col-md-6 col-12">
-													<div class="single-image">
-														<img src="img/blog3.jpg" alt="#">
-													</div>
-												</div>
-											</div>
-										</div>
-
-										<div class="text-center">
+										
+									    <div class="text-center">
 											<!-- News Title -->
 											<h1 class="news-title"><a href="news-single.html">Simulación planta sin automatizar</a></h1>
 											<!-- Meta -->
 									    </div> 
 										
-										<p class="text-justify">Se determina como banda 1 a la banda encargada de suministrar los tubos al robot y la banda 2 como la banda que envía los tubos al almacén, se considera además la existencia de un sensor para la detección del tubo en posición
-											 y el actuador para activar y desactivar el gripper tipo garra.
-										</p>
-
-										<p class="text-justify">Se considera además que la comunicación con robotstudio se hace mediante envío de señales entrada y salida, en un programa que contiene rutinas de ida y regreso para el tubo, tanto para la máquina de doblado con tubos de 1,5 y 1 m,
-											 como para la máquina de corte con tubos de 1m, 49 cm y 34 cm, obteniendo 10 rutinas en total.
-										</p>
-
-										<p class="text-justify">El gripper es controlado dentro de las rutinas de robotstudio.
-										</p>
-
-										<p class="text-justify"> Si bien las secuencias de ida y regreso están encadenadas para evitar errores, se añade más seguridad al asegurar que no se quede activada una rutina mediante el uso de timers para representar un pulso de selección de la rutina.
-										</p>
-										
-										<p class="text-justify"> Para los contadores se representan como Cont, los cuales se usan para cortar los trozos de tubo en un proceso y para llevar una secuencia de los tubos cortados.</p>
-										<p class="text-justify"> Las variables t sirven para identificar banderas para un primer ciclo en las escaleras.</p>
-
 										
 										
-										<div class="image-gallery">
-											<div class="row">
-												<div class="col-lg-6 col-md-6 col-12">
-													<div class="single-image">
-														<img src="img/blog2.jpg" alt="#">
-													</div>
-												</div>
-												<div class="col-lg-6 col-md-6 col-12">
-													<div class="single-image">
-														<img src="img/blog3.jpg" alt="#">
-													</div>
-												</div>
-											</div>
-										</div>
+										
+										
 										</div>
 									<div class="blog-bottom">
 										<!-- Social Share -->
